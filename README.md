@@ -35,10 +35,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/chelseah02/Content-Creatorverse/blob/main/Web103-Prework-Gif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
+GIF created with ...  LiceCap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -47,6 +47,9 @@ GIF created with ...  👉🏿 GIF tool here
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+A challenge I faced involved updating each card. My actions were not updating the record of table, and the original card kept displaying. I solved this issue when I noticed that the call was being fetched from an incorrect table name (Creators instead of creators from Supabase).
+
+I would improve this app by improving the user view and styles as well as adding images to each content creator card.
 
 ## License
 
