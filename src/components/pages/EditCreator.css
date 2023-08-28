@@ -1,0 +1,66 @@
+.temp-card {
+    color: rgb(164, 164, 255);
+    width: 25% !important;
+    margin: auto;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+input {
+    margin-top: 10px;
+    width: 74%;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    padding-left: 10px;
+    background-color: rgb(193, 193, 255);
+}
+
+label {
+    font-size: 20px;
+}
+
+.title-edit {
+    font-size: 30px;
+}
+.text-edit {
+    font-size: 20px;
+}
+input[type=submit] {
+    width: 75%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    color:white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 20px;
+  }
+
+input[type=submit]:hover {
+    border-color: #65f186;
+    border: 200px;
+}
+
+.deleteButton {
+    width: 75%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #870404;
+    color:white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
